@@ -1,7 +1,7 @@
 import type { Config } from "tailwindcss"
-import animatePlugin from "tailwindcss-animate"
 
 const config = {
+  darkMode: ["class"],
   content: [
     "./pages/**/*.{ts,tsx}",
     "./components/**/*.{ts,tsx}",
@@ -14,6 +14,7 @@ const config = {
     container: {
       center: true,
       padding: "2rem",
+      background: "transparent",
       screens: {
         "2xl": "1400px",
       },
@@ -75,7 +76,7 @@ const config = {
       },
     },
   },
-  plugins: [animatePlugin],
+  plugins: [require("tailwindcss-animate")],
 } satisfies Config
 
 export default config
