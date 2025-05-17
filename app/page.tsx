@@ -10,7 +10,7 @@ export default function Home() {
         <div className="container flex h-16 items-center justify-between">
           <div className="flex items-center gap-2">
             <Image
-              src="/placeholder.svg?height=40&width=40"
+              src="/gsw-logo.svg?height=40&width=40"
               alt="GSW Logo"
               width={40}
               height={40}
@@ -50,13 +50,13 @@ export default function Home() {
         {/* Hero Section */}
         <section className="relative h-[70vh] overflow-hidden bg-[#1D428A]">
           <div className="absolute inset-0 bg-gradient-to-r from-[#1D428A]/90 to-transparent z-10"></div>
-          <Image
-            src="/placeholder.svg?height=1080&width=1920"
+            <Image
+            src="/gsw-logo.svg?height=540&width=960"
             alt="Warriors Team"
             fill
-            className="object-cover"
+            className="object-contain"
             priority
-          />
+            />
           <div className="container relative z-20 flex flex-col justify-center h-full text-white">
             <h1 className="text-4xl md:text-6xl font-bold mb-4">Golden State Warriors</h1>
             <p className="text-xl md:text-2xl mb-8 max-w-2xl">
@@ -66,7 +66,7 @@ export default function Home() {
               <Button size="lg" className="bg-[#FFC72C] text-[#1D428A] hover:bg-[#FFC72C]/90 w-fit">
                 Buy Tickets
               </Button>
-              <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10 w-fit">
+              <Button size="lg" variant="outline" className="text-black hover:bg-white/10 w-fit">
                 Season Schedule
               </Button>
             </div>
@@ -351,11 +351,11 @@ export default function Home() {
             <div>
               <div className="flex items-center gap-2 mb-4">
                 <Image
-                  src="/placeholder.svg?height=40&width=40"
+                  src="/gsw-logo.svg?height=40&width=40"
                   alt="GSW Logo"
                   width={40}
                   height={40}
-                  className="rounded-full bg-white"
+                  className="rounded-full"
                 />
                 <span className="text-xl font-bold">Warriors</span>
               </div>
