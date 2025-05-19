@@ -31,9 +31,6 @@ export default function Home() {
             <Link href="#news" className="text-sm font-medium hover:text-primary">
               News
             </Link>
-            <Link href="#" className="text-sm font-medium hover:text-primary">
-              Shop
-            </Link>
           </nav>
           <div className="flex items-center gap-4">
             <Button variant="outline" size="sm" className="hidden md:flex">
