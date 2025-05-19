@@ -33,9 +33,6 @@ export default function Home() {
             </Link>
           </nav>
           <div className="flex items-center gap-4">
-            <Button variant="outline" size="sm" className="hidden md:flex">
-              Sign In
-            </Button>
             <Button size="sm" className="bg-[#1D428A] hover:bg-[#1D428A]/90">
               Buy Tickets
             </Button>
