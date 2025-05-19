@@ -33,9 +33,11 @@ export default function Home() {
             </Link>
           </nav>
           <div className="flex items-center gap-4">
-            <Button size="sm" className="bg-[#1D428A] hover:bg-[#1D428A]/90">
+            <Link href="https://www.nba.com/warriors/tickets" target="_blank">
+              <Button size="sm" className="bg-[#1D428A] hover:bg-[#1D428A]/90">
               Buy Tickets
-            </Button>
+              </Button>
+            </Link>
           </div>
         </div>
       </header>
@@ -57,12 +59,16 @@ export default function Home() {
               The Dynasty Continues. Follow the Warriors' journey through the NBA season.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button size="lg" className="bg-[#FFC72C] text-[#1D428A] hover:bg-[#FFC72C]/90 w-fit">
-                Buy Tickets
-              </Button>
-              <Button size="lg" variant="outline" className="text-black hover:bg-white/10 w-fit">
-                Season Schedule
-              </Button>
+              <Link href="https://www.nba.com/warriors/tickets" target="_blank">
+                <Button size="lg" className="bg-[#FFC72C] text-[#1D428A] hover:bg-[#FFC72C]/90 w-fit">
+                  Buy Tickets
+                </Button>
+              </Link>
+              <Link href="https://www.nba.com/warriors/schedule" target="_blank">
+                <Button size="lg" variant="outline" className="text-black hover:bg-white/10 w-fit">
+                  Season Schedule
+                </Button>
+              </Link>
             </div>
           </div>
         </section>
